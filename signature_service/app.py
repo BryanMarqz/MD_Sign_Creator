@@ -233,7 +233,7 @@ def build_signature_image(data: dict) -> Image.Image:
             brightness=float(data.get("headshot_brightness", 1.0)),
             saturation=float(data.get("headshot_saturation", 1.0)),
         )
-        if data.get("headshot_border", False) and HEAD_BORDER:
+        if data.get("headshot_border", True) and HEAD_BORDER:
             head_raw = ImageOps.expand(head_raw, border=HEAD_BORDER, fill=(0, 0, 0, 255))
         head_img = head_raw
 

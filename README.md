@@ -35,7 +35,7 @@ Fellowship trained in [Specialization], [University]                  ← option
 |---|---|
 | **Form-based data entry** | Name, clinical title, specialization, university, board certification toggle, and fellowship toggle |
 | **Signature upload** | Drag-and-drop; adjustable contrast & brightness sliders with reset buttons |
-| **Headshot upload** | Drag-and-drop with interactive **1:1 square crop** (Cropper.js) and an optional adjustable black border |
+| **Headshot upload** | Drag-and-drop with interactive **1:1 square crop** (Cropper.js) and an adjustable black border enabled by default |
 | **Color adjustments** | Per-image brightness and saturation controls |
 | **Layout controls** | Canvas width, font size, and individual size sliders for every section |
 | **Default logo** | Expert Radiology logo auto-loaded from `assets/logo.png` — no prompt needed |
